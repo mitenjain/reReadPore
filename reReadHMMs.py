@@ -430,8 +430,8 @@ def main(myCommandLine=None):
             num_events += 1
 
             # plot event according to model
-            plot_event(filename.strip().split('/')[-1], event, \
-                       model=models[0])
+#             plot_event(filename.strip().split('/')[-1], event, \
+#                        model=models[0])
             
     # now print stuff
     assert (fileCount > 0), 'ERROR: empty directory, no ABF files found'
