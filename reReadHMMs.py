@@ -76,6 +76,7 @@ def kmer_current_map(file):
 
 ########################################################################
 # HMM Constructor class constructing input-specific HMMs
+# Models need to be changed
 ########################################################################
 
 class HMM_Constructor():
